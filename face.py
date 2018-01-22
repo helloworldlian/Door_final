@@ -7,9 +7,12 @@ function 调用百度api
 from aip import AipFace
 class Face_id(object):
     def __init__(self):
-        self.APP_ID = '10593933'
-        self.API_KEY = 'IkigMvoCFrCwqV4MkMHwLnjr'
-        self.SECRET_KEY = 'BfpVkMNOv2GhmctbXRQAqRhRKaFKs4mR'
+        "your baidu ai APP_ID"
+        self.APP_ID = '********'
+        "your baidu ai API_KEY"
+        self.API_KEY = '***************'
+        "your baidu ai SECRET_KEY"
+        self.SECRET_KEY = '*******************'
         self.aipFace = AipFace(self.APP_ID,self.API_KEY,self.SECRET_KEY)
         self.photo_name = ''
         self.group = 'Door'
@@ -61,5 +64,4 @@ class Face_id(object):
 if __name__=='__main__':
     face = Face_id()
     face.get_group()
-    face.del_user('lianjiaxin_Door202')
     face.get_groupuser('Door')

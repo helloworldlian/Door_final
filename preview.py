@@ -19,7 +19,8 @@ class Preview(object):
         self.camera.set(3, 640)
         self.camera.set(4, 480)
         self.photo_name = ''
-        self.__path = 'I:\\Pycharm\\Door_f\\'
+        "your path "
+        self.__path = '*********'
         self.photo_success = False
         self.history_photoname = []
         #config to take photo
