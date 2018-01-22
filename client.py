@@ -6,11 +6,12 @@ function 客户端主程序
 """
 from preview import *
 from Doorv2 import *
+from face import *
 import sys
 import time
 import threading
 import os
-from face import *
+
 class my_client(QtGui.QDialog):
     def __init__(self):
         super(my_client,self).__init__()

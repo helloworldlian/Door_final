@@ -70,8 +70,3 @@ class Preview(object):
         cv.imshow('cropimage',cropImg)
         cv.waitKey(0)
 
-
-if __name__=='__main__':
-     pass
-#     Pre = Preview()
-#     Pre.ShowwithMultiprocess()
