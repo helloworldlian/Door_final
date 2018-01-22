@@ -11,7 +11,6 @@ import sys
 import time
 import threading
 import os
-
 class my_client(QtGui.QDialog):
     def __init__(self):
         super(my_client,self).__init__()

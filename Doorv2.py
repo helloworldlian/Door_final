@@ -576,5 +576,4 @@ if __name__=='__main__':
     item.setCheckState(QtCore.Qt.Unchecked)
     face_idd.checktableWidget.setItem(1, 3, item)
     face_idd.exec_()
-    print 'show over'
     app.exec_()
